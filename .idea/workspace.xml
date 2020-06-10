@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c8b2c955-ed56-4f01-971b-2a8c4affee0e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/controllers/SpoilersController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/SpoilersController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,7 +45,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
@@ -58,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controllers/SpoilersController.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+            <state relative-caret-position="252">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
                 <element signature="n#!!block;n#index#0;n#SpoilersController#0" />
@@ -111,8 +110,8 @@
         <option value="$PROJECT_DIR$/src/database/migrations/01_create_spoilers.ts" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/server.ts" />
-        <option value="$PROJECT_DIR$/src/controllers/SpoilersController.ts" />
         <option value="$PROJECT_DIR$/src/routes.ts" />
+        <option value="$PROJECT_DIR$/src/controllers/SpoilersController.ts" />
       </list>
     </option>
   </component>
@@ -142,7 +141,7 @@
               <item name="Spoilers-Create" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spoilers-Create" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spoilers-Create" type="b2602c69:ProjectViewProjectNode" />
@@ -194,16 +193,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591806550897</updated>
-      <workItem from="1591806556432" duration="7667000" />
+      <workItem from="1591806556432" duration="8967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7667000" />
+    <option name="totallyTimeSpent" value="8967000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="DB Browser" weight="0.26108727" />
       <window_info id="Favorites" side_tool="true" />
@@ -303,26 +301,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/SpoilersController.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-            <element signature="n#!!block;n#index#0;n#SpoilersController#0" />
-            <element signature="n#!!block;n#create#0;n#SpoilersController#0" />
-            <element signature="n#!!block;n#update#0;n#SpoilersController#0" />
-            <element signature="n#!!block;n#dedtroy#0;n#SpoilersController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/SpoilersController.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <element signature="n#!!block;n#index#0;n#SpoilersController#0" />
+            <element signature="n#!!block;n#create#0;n#SpoilersController#0" />
+            <element signature="n#!!block;n#update#0;n#SpoilersController#0" />
+            <element signature="n#!!block;n#dedtroy#0;n#SpoilersController#0" />
           </folding>
         </state>
       </provider>

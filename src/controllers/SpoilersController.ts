@@ -3,7 +3,9 @@ import knex from '../database/connection';
 
 class SpoilersController {
     async index(request: Request, response: Response) {
+        const spoilers = await knex('spoilers').select('*');
 
+        return response.json(spoilers);
     }
 
     async create(request: Request, response:Response) {
