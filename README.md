@@ -36,9 +36,6 @@ Crie o banco de dados
 npm run knex:migrate
 ```
 
-```
-npm run knex:seed
-```
 
 Depois que os pacotes estiverem instalados, apenas execute
 
