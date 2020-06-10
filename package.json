@@ -1,0 +1,13 @@
+{
+  "name": "Spoilers-Create",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "ts-node-dev --ignore-watch node_modules src/server.ts"
+  },
+  "dependencies": {
+    "ts-node": "^8.10.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.9.5"
+  }
+}
