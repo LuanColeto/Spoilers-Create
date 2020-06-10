@@ -1,8 +1,11 @@
 import express from 'express';
 
-const routes = express.Router();
+import SpoilersController from './controllers/SpoilersController';
 
-routes.get('/spoilers', () => {});
+const routes = express.Router();
+const spoilersController = new SpoilersController();
+
+routes.get('/spoilers', );
 
 routes.post('/spoilers', () => {});
 
