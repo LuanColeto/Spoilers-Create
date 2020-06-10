@@ -14,7 +14,7 @@ Spoilers-Create é uma aplicação web construida com node js e react js, que te
 ### Pré-requisitos
 
 - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado em sua máquina
-- É **preciso** ter um gerenciador de pacotes em sua máquina **[npm](https://www.npmjs.com/)** ou **[Yarn (https://yarnpkg.com/)**
+- É **preciso** ter um gerenciador de pacotes em sua máquina **[npm](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**
 
 ### :rocket: Como usar
 
