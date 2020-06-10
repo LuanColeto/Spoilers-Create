@@ -7,41 +7,74 @@ Spoilers-Create é uma aplicação web construida com node js e react js, que te
 
 Tudo do que você vai precisar para rodar o projeto em sua maquina.
 
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
 Node js
-
-```
-brew install node
-```
 
 npm ou yarn
 
+
+
+### Instalando
+
+O passo a passo para ter o projeto rodando em sua máquina
+
+#### Rodando o servidor
+
+
+Instale os pacotes
+
 ```
-brew install yarn
+yarn add
 ```
 
+OU
 
-End with an example of getting some data out of the system or using it for a little demo
+```
+npm install
+```
+
+Depois que os pacotes estiverem instalados, apenas execute
+
+```
+npm run dev
+```
+
+Agora seu servidor está rodando em (http://localhost:3333)
 
 
-## Built With
+#### Rodando o cliente
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-## Contributing
+Instale os pacotes
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+```
+yarn add
+```
+
+OU
+
+```
+npm install
+```
+
+Depois que os pacotes estiverem instalados, apenas execute
+
+```
+npm start
+```
+
+**Parabéns** O projeto está pronto para ser utilizado em (http://localhost:3000)
+
+
+
+## Tecnologias utilizadas
+
+* [Typescript](https://www.typescriptlang.org/) - A linguagem utilizada
+* [Express](https://expressjs.com/pt-br/) - Framework utilizado no back-end
+* [React](https://pt-br.reactjs.org/) - Biblioteca utilizada no front-end
+
+## Como contribuir ?
+
+Para contribuir com o projeto de um fork no projeto, e faça
 
 ## Versioning
 
