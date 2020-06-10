@@ -1,23 +1,26 @@
 # Spoilers-Create
 
+### :bookmark: Sobre
+
 Spoilers-Create é uma aplicação web construida com node js e react js, que tem como seu objetivo compartilhar spoilers, então tome cuidado com spoilers!!! 
+
+## :computer: Tecnologias utilizadas
+
+* [Typescript](https://www.typescriptlang.org/) - A linguagem utilizada
+* [Express](https://expressjs.com/pt-br/) - Framework utilizado no back-end
+* [React](https://pt-br.reactjs.org/) - Biblioteca utilizada no front-end
 
 
 ### Pré-requisitos
 
-Tudo do que você vai precisar para rodar o projeto em sua maquina.
+- É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado em sua máquina
+- É **preciso** ter um gerenciador de pacotes em sua máquina **[npm](https://www.npmjs.com/)** ou **[Yarn (https://yarnpkg.com/)**
 
-Node js
+### :rocket: Como usar
 
-npm ou yarn
+1. Começe clonando o projeto ```git clone https://github.com/LuanColeto/Spoilers-Create.git```
 
-
-
-### Instalando
-
-O passo a passo para ter o projeto rodando em sua máquina
-
-#### Rodando o servidor
+2. **Executando o servidor**
 
 
 Instale os pacotes
@@ -26,7 +29,7 @@ Instale os pacotes
 yarn add
 ```
 
-OU
+ou
 
 ```
 npm install
@@ -41,7 +44,7 @@ npm run dev
 Agora seu servidor está rodando em (http://localhost:3333)
 
 
-#### Rodando o cliente
+3. **Executando o cliente**
 
 
 Instale os pacotes
@@ -50,10 +53,21 @@ Instale os pacotes
 yarn add
 ```
 
-OU
+ou
 
 ```
 npm install
+```
+
+Crie o banco de dados
+
+
+```
+npm run knex:migrate
+```
+
+```
+npm run knex:seed
 ```
 
 Depois que os pacotes estiverem instalados, apenas execute
@@ -62,23 +76,14 @@ Depois que os pacotes estiverem instalados, apenas execute
 npm start
 ```
 
-**Parabéns** O projeto está pronto para ser utilizado em (http://localhost:3000)
+ :tada: **Parabéns** O projeto está pronto para ser utilizado em (http://localhost:3000)
 
 
-
-## Tecnologias utilizadas
-
-* [Typescript](https://www.typescriptlang.org/) - A linguagem utilizada
-* [Express](https://expressjs.com/pt-br/) - Framework utilizado no back-end
-* [React](https://pt-br.reactjs.org/) - Biblioteca utilizada no front-end
 
 ## Como contribuir ?
 
 Para contribuir com o projeto de um fork no projeto, e faça
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
