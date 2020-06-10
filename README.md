@@ -83,6 +83,4 @@ Esse projeto está sobre a MIT License - Veja mais o [LICENSE.md](LICENSE.md) pa
 
 ---
 
-<h4 align:"center">
-Feito com :heart: por Luan Coleto
-</h4>
+<h4 align="center"> Feito com :heart: by Luan Coleto </h4>
