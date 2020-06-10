@@ -69,7 +69,7 @@ npm start
 
 
 
-## Como contribuir ?
+## :octocat: Como contribuir ?
 
 - Faça um Fork no seu repositório;
 - Crie uma branch com a sua feature: `git checkout -b my-feature`;
@@ -80,3 +80,9 @@ npm start
 ## :memo: License
 
 Esse projeto está sobre a MIT License - Veja mais o [LICENSE.md](LICENSE.md) para mais detalhes
+
+---
+
+<h4 align:"center">
+Feito com :heart: por Luan Coleto
+</h4>
