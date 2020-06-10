@@ -26,36 +26,6 @@ Spoilers-Create é uma aplicação web construida com node js e react js, que te
 Instale os pacotes
 
 ```
-yarn add
-```
-
-ou
-
-```
-npm install
-```
-
-Depois que os pacotes estiverem instalados, apenas execute
-
-```
-npm run dev
-```
-
-Agora seu servidor está rodando em (http://localhost:3333)
-
-
-3. **Executando o cliente**
-
-
-Instale os pacotes
-
-```
-yarn add
-```
-
-ou
-
-```
 npm install
 ```
 
@@ -73,6 +43,25 @@ npm run knex:seed
 Depois que os pacotes estiverem instalados, apenas execute
 
 ```
+npm run dev
+```
+
+Agora seu servidor está rodando em (http://localhost:3333)
+
+
+3. **Executando o cliente**
+
+
+Instale os pacotes
+
+```
+npm install
+```
+
+
+Depois que os pacotes estiverem instalados, apenas execute
+
+```
 npm start
 ```
 
@@ -82,23 +71,12 @@ npm start
 
 ## Como contribuir ?
 
-Para contribuir com o projeto de um fork no projeto, e faça
+- Faça um Fork no seu repositório;
+- Crie uma branch com a sua feature: `git checkout -b my-feature`;
+- Commit suas mudanças: `git commit -m 'feat: My new feature'`;
+- De um Push na sua branch: `git push origin`
 
 
-## Authors
+## :memo: License
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
-
+Esse projeto está sobre a MIT License - Veja mais o [LICENSE.md](LICENSE.md) para mais detalhes
