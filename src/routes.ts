@@ -11,7 +11,7 @@ routes.post('/spoilers', spoilersController.create);
 
 routes.put('/spoilers/:id', spoilersController.update);
 
-routes.delete('/spoiler/:id', spoilersController.dedtroy);
+routes.delete('/spoilers/:id', spoilersController.destroy);
 
 
 export default routes;

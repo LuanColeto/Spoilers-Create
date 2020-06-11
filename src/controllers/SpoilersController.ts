@@ -64,9 +64,24 @@ class SpoilersController {
         response.json(spoiler)
     }
 
-    async dedtroy(request: Request, response: Response) {
+    async destroy(request: Request, response: Response) {
 
-    }
+        const { id } = request.params;
+
+        const trx = await knex.transaction();
+
+        if (!id) {
+            return response.status(400).json({message: "Spoiler not found"})
+        }
+
+
+        const deleteSpoilers = await trx('spoilers').where('id', id).del();
+
+        trx.commit(deleteSpoilers);
+
+        response.json({message: 'succes'})
+
+       }
 }
 
 export default SpoilersController;
