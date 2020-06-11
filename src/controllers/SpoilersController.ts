@@ -37,7 +37,31 @@ class SpoilersController {
     }
 
     async update(request: Request, response: Response) {
+        const { id } = request.params;
 
+        const trx = await knex.transaction();
+
+        if (!id) {
+            return response.status(400).json({message: 'Spoiler not find'})
+        }
+
+        const  {
+            title,
+            name,
+            description
+        } = request.body;
+
+        const spoiler = {
+            title,
+            name,
+            description
+        };
+
+        const newContent = await trx('spoilers').update(spoiler).where('id', id);
+
+        await trx.commit(newContent);
+
+        response.json(spoiler)
     }
 
     async dedtroy(request: Request, response: Response) {
