@@ -1,8 +1,12 @@
 import React from 'react';
+import Cabecalho from '../../components/cabecalho'
 
 const Spoilers = () => {
     return (
-        <h1>Spoilers</h1>
+        <div>
+            <Cabecalho/>
+            <h1>Spoilers</h1>
+        </div>
     )
 };
 

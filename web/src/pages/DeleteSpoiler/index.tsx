@@ -1,8 +1,13 @@
 import React from 'react';
+import Cabecalho from '../../components/cabecalho'
+
 
 const DeleteSpoiler = () => {
     return (
-        <h1>DELETAR SPOILER</h1>
+        <div>
+            <Cabecalho/>
+            <h1>DELETAR SPOILER</h1>
+        </div>
     )
 };
 

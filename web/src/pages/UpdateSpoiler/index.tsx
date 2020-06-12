@@ -1,8 +1,12 @@
 import React from 'react';
+import Cabecalho from '../../components/cabecalho'
 
 const UpdateSpoiler = () => {
     return (
-        <h1>Editar Spoiler</h1>
+        <div>
+            <Cabecalho/>
+            <h1>Editar Spoiler</h1>
+        </div>
     )
 };
 
