@@ -5,7 +5,9 @@ const UpdateSpoiler = () => {
     return (
         <div>
             <Cabecalho/>
-            <h1>Editar Spoiler</h1>
+            <form>
+                
+            </form>
         </div>
     )
 };
