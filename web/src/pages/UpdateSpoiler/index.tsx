@@ -7,7 +7,7 @@ const UpdateSpoiler = () => {
             <Cabecalho/>
             <form className="container">
                 <fieldset>
-                    <legend>Criar Spoiler</legend>
+                    <legend>Editar Spoiler</legend>
                     <div className="form-group">
                         <label htmlFor="espoliador">Espoliador</label>
                         <input
