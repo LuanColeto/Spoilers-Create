@@ -16,6 +16,7 @@ const UpdateSpoiler = () => {
                             id="espoliador"
                             name="espoliador"
                             placeholder="Fulano de Tal"
+                            disabled={true}
                         />
                     </div>
                     <div className="form-group">
