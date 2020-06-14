@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="988800b1-d68c-415c-b76a-e9cb8be609ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/pages/DeleteSpoiler/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/DeleteSpoiler/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Spoilers/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Spoilers/index.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,25 +16,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/Spoilers/index.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="31" column="18" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="31" selection-end-column="18" />
+            <state relative-caret-position="273">
+              <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/DeleteSpoiler/index.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#382#1299#0" />
+                <element signature="e#1392#2377#0" />
+                <element signature="e#2402#3387#0" />
               </folding>
             </state>
           </provider>
@@ -85,8 +77,8 @@
         <option value="$PROJECT_DIR$/src/pages/UpdateSpoiler/index.tsx" />
         <option value="$PROJECT_DIR$/src/components/cabecalho.jsx" />
         <option value="$PROJECT_DIR$/src/components/styles.css" />
-        <option value="$PROJECT_DIR$/src/pages/Spoilers/index.tsx" />
         <option value="$PROJECT_DIR$/src/pages/DeleteSpoiler/index.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/Spoilers/index.tsx" />
       </list>
     </option>
   </component>
@@ -224,7 +216,7 @@
       <updated>1591913913867</updated>
       <workItem from="1591913915267" duration="9022000" />
       <workItem from="1591968670802" duration="2023000" />
-      <workItem from="1591994187845" duration="18808000" />
+      <workItem from="1591994187845" duration="19068000" />
     </task>
     <servers />
   </component>
@@ -234,7 +226,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29853000" />
+    <option name="totallyTimeSpent" value="30113000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -423,22 +415,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Spoilers/index.tsx">
+    <entry file="file://$PROJECT_DIR$/src/pages/DeleteSpoiler/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="18" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="31" selection-end-column="18" />
+        <state relative-caret-position="252">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/DeleteSpoiler/index.tsx">
+    <entry file="file://$PROJECT_DIR$/src/pages/Spoilers/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state relative-caret-position="273">
+          <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#382#1299#0" />
+            <element signature="e#1392#2377#0" />
+            <element signature="e#2402#3387#0" />
           </folding>
         </state>
       </provider>
