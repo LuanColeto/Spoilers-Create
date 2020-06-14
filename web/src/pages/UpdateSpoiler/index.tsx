@@ -10,7 +10,7 @@ const UpdateSpoiler = () => {
                     <main className="col-xl-4 col-lg-4" role="main">
                         <form className="container">
                             <fieldset>
-                                <legend>Criar Spoiler</legend>
+                                <legend>Editar Spoiler</legend>
                                 <div className="form-group">
                                     <label htmlFor="espoliador">Espoliador</label>
                                     <input
