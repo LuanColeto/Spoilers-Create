@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="988800b1-d68c-415c-b76a-e9cb8be609ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/pages/CreateSpoiler/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CreateSpoiler/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/UpdateSpoiler/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UpdateSpoiler/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,7 +29,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/UpdateSpoiler/index.tsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="441">
@@ -40,15 +41,24 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/services/api.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="TypeScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -88,6 +98,8 @@
         <option value="$PROJECT_DIR$/src/pages/Spoilers/index.tsx" />
         <option value="$PROJECT_DIR$/src/pages/CreateSpoiler/index.tsx" />
         <option value="$PROJECT_DIR$/src/pages/UpdateSpoiler/index.tsx" />
+        <option value="$PROJECT_DIR$/src/services/api.js" />
+        <option value="$PROJECT_DIR$/src/services/api.ts" />
       </list>
     </option>
   </component>
@@ -117,21 +129,7 @@
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="CreateSpoiler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="UpdateSpoiler" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -225,7 +223,7 @@
       <updated>1591913913867</updated>
       <workItem from="1591913915267" duration="9022000" />
       <workItem from="1591968670802" duration="2023000" />
-      <workItem from="1591994187845" duration="19777000" />
+      <workItem from="1591994187845" duration="20130000" />
     </task>
     <servers />
   </component>
@@ -235,7 +233,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30822000" />
+    <option name="totallyTimeSpent" value="31175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -436,6 +434,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/UpdateSpoiler/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -443,6 +448,13 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/api.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
