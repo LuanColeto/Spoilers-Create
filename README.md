@@ -18,7 +18,11 @@ Spoilers-Create é uma aplicação web construida com node js e react js, que te
 
 ### :rocket: Como usar
 
-1. Começe clonando o projeto ```git clone https://github.com/LuanColeto/Spoilers-Create.git```
+1. Começe clonando o projeto
+
+```
+git clone https://github.com/LuanColeto/Spoilers-Create.git
+```
 
 2. **Executando o servidor**
 
