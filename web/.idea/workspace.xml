@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="988800b1-d68c-415c-b76a-e9cb8be609ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/cabecalho.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cabecalho.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles.css" afterDir="false" />
-    </list>
+    <list default="true" id="988800b1-d68c-415c-b76a-e9cb8be609ef" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -43,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="84">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -220,7 +217,7 @@
       <updated>1591913913867</updated>
       <workItem from="1591913915267" duration="9022000" />
       <workItem from="1591968670802" duration="2023000" />
-      <workItem from="1591994187845" duration="16531000" />
+      <workItem from="1591994187845" duration="16752000" />
     </task>
     <servers />
   </component>
@@ -230,7 +227,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27576000" />
+    <option name="totallyTimeSpent" value="27797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -431,8 +428,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="84">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
