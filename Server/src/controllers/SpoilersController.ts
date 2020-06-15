@@ -8,6 +8,14 @@ class SpoilersController {
         return response.json(spoilers);
     }
 
+    async show(request: Request, response: Response) {
+        const { id } = request.params;
+
+        const spoiler = await knex('spoilers').where('id', id);
+
+        response.json(spoiler)
+    }
+
     async create(request: Request, response:Response) {
         const {
             title,
