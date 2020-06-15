@@ -1,47 +1,81 @@
-import React from 'react';
+import React, {ChangeEvent, FormEvent, useState} from 'react';
 import Cabecalho from '../../components/cabecalho'
+import api from "../../services/api";
 
 const CreateSpoiler = () => {
+    const [formData, setFormData] = useState({
+        title: '',
+        name: '',
+        description: ''
+    });
+
+    function handleInputChange(event: ChangeEvent<HTMLInputElement>) {
+        const { name, value } = event.target;
+
+        setFormData({...formData, [name] : value});
+
+        console.log(setFormData);
+    }
+
+    async function handleSubmit(event: FormEvent) {
+        event.preventDefault();
+
+        const {name, title, description} = formData;
+
+        const data = {
+            name,
+            title,
+            description
+        }
+
+        api.post('spoilers', data);
+
+        alert("Spoiler Criado com sucesso!")
+    }
+
     return (
         <div>
             <Cabecalho/>
             <div className="container">
                 <div className="row justify-content-md-center">
                     <main className="col-xl-4 col-lg-4" role="main">
-                        <form className="container">
+                        <form className="container" onSubmit={handleSubmit}>
                             <fieldset>
                                 <legend>Criar Spoiler</legend>
                                 <div className="form-group">
-                                    <label htmlFor="espoliador">Espoliador</label>
+                                    <label htmlFor="name">Espoliador</label>
                                     <input
                                         type="text"
                                         className="form-control"
-                                        id="espoliador"
-                                        name="espoliador"
+                                        id="name"
+                                        name="name"
                                         placeholder="Fulano de Tal"
+                                        onChange={handleInputChange}
                                     />
                                 </div>
                                 <div className="form-group">
-                                    <label htmlFor="titulo">Título</label>
+                                    <label htmlFor="title">Título</label>
                                     <input
                                         type="text"
                                         className="form-control"
-                                        id="titulo"
-                                        name="titulo"
+                                        id="title"
+                                        name="title"
                                         aria-describedby="tituloAjuda"
                                         placeholder="Star Wars"
+                                        onChange={handleInputChange}
                                     />
                                     <small id="tituloAjuda" className="form-text text-muted">
                                         Um título pode ser um filme, série, livro...
                                     </small>
                                 </div>
                                 <div className="form-group">
-                                    <label htmlFor="descricao">Descrição</label>
-                                    <textarea
+                                    <label htmlFor="description">Descrição</label>
+                                    <input
                                         className="form-control"
-                                        id="descricao"
-                                        name="descricao"
+                                        id="description"
+                                        name="description"
                                         placeholder="Luke morre"
+                                        onChange={handleInputChange}
                                     />
                                 </div>
                                 <button type="submit" className="btn btn-primary">
