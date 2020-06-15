@@ -12,7 +12,7 @@ const Cabecalho = () => {
                     </Link>
                     <p style={{marginTop: '40px'}}>Faça Spoilers, não faça guerra :)</p>
                     <Link to="/create">
-                        <a className="btn btn-primary btn-lg" style={{backgroundColor: '#34CB79', border: 'none', marginTop: '40px'}} href="#" role="button">Criar Spoiler</a>
+                        <a className="btn btn-primary btn-lg" style={{backgroundColor: '#34CB79', border: 'none', marginTop: '40px'}} href="/create" role="button">Criar Spoiler</a>
                         </Link>
                 </div>
             </div>
