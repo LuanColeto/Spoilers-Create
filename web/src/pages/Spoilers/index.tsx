@@ -19,8 +19,6 @@ const Spoilers = () => {
        })
     }, []);
 
-
-
     return (
         <div>
             <Cabecalho/>
