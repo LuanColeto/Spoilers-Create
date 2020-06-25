@@ -5,7 +5,7 @@
 Spoilers-Create é uma aplicação web construida com node js e react js, que tem como seu objetivo compartilhar spoilers, então tome cuidado com spoilers!!! 
 
 ## :computer: Tecnologias utilizadas
-
+ 
 * [Typescript](https://www.typescriptlang.org/) - A linguagem utilizada
 * [Express](https://expressjs.com/pt-br/) - Framework utilizado no back-end
 * [React](https://pt-br.reactjs.org/) - Biblioteca utilizada no front-end
