@@ -1,8 +1,10 @@
 import React, {ChangeEvent, FormEvent, useState} from 'react';
 import Cabecalho from '../../components/cabecalho'
 import api from "../../services/api";
+import { useHistory } from 'react-router-dom'
 
 const CreateSpoiler = () => {
+    const history = useHistory();
     const [formData, setFormData] = useState({
         title: '',
         name: '',
@@ -26,12 +28,12 @@ const CreateSpoiler = () => {
             name,
             title,
             description
-        }
+        };
 
-        api.post('spoilers', data);
+        const response = await api.post('spoilers', data);
 
-        alert("Spoiler Criado com sucesso!")
-    }
+        history.push('/');
+    };
 
     return (
         <div>
