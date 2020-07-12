@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import Cabecalho from '../../components/cabecalho';
-import { Link } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import api from '../../services/api';
 
 interface Spoiler {
@@ -19,6 +19,16 @@ const Spoilers = () => {
        })
     }, []);
 
+    async function handleDelete(id: number) {
+        await api.delete(`/spoilers/${id}`);
+
+        const filteredSpoiler = spoilers.filter(spoiler => {
+            return spoiler.id != id
+        })
+
+        setSpoilers(filteredSpoiler)
+    }
+
     return (
         <div>
             <Cabecalho/>
@@ -36,12 +46,12 @@ const Spoilers = () => {
                                             <p>{spoiler.description}</p>
                                         </div>
                                     </div>
-                                    <Link to="/delete" className="btn btn-danger mr-3" role="button">
+                                    <a onClick={() => handleDelete(spoiler.id)} className="btn btn-danger mr-3 col" role="button" style={{color: '#fff'}}>
                                         Remover
-                                    </Link>
-                                    <Link to="/update" className="btn btn-primary" role="button">
-                                        Editar
-                                    </Link>
+                                    </a>
+                                    {/*<Link to="/update" className="btn btn-primary" role="button">*/}
+                                    {/*    Editar*/}
+                                    {/*</Link>*/}
                                 </div>
                             </div>
                         ))}
