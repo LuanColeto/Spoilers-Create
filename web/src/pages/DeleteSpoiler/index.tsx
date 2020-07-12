@@ -1,9 +1,14 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Cabecalho from '../../components/cabecalho';
 import { Link } from 'react-router-dom';
+import api from '../../services/api';
 
 
 const DeleteSpoiler = () => {
+    useEffect(() => {
+        api.get(`/spoilers/`)
+    }, []);
+
     return (
         <div>
             <Cabecalho/>
